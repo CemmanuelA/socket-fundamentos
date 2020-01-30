@@ -10,15 +10,6 @@ io.on('connection', ( client ) => {
 
         // emitir a todos los usuarios conectados
         client.broadcast.emit('enviarMensaje', data);
-     /*    if ( message.usuario ) {
-            callback({
-                resp: 'TODO SALIO BIEN!'
-            })
-        }else {
-            callback({
-                resp: 'TODO SALIO MAL!!!!!'
-            })
-        } */
 
     });
 })
